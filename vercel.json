@@ -4,12 +4,9 @@
         {
             "src":"Weather_app/wsgi.py",
             "use":"@vercel/python",
-            "config":{"maxLandasize" : "", "runtime": "python3.9"}
-        }
-    
-        
-       
-    ],
+            "config":{"maxLambdasize" : "15mb", "runtime": "python3.9"}
+        }   
+            ],
     "routes":[
         {
             "src":"/(.*) ",
