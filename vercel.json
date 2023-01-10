@@ -8,9 +8,9 @@
 
     "src": "Wether_app/wsgi.py",
 
-    "use": "@vercel/python ",
+    "use": "@vercel/python",
 
-    "config": { "maxLambdaSize": "15mb", "runtime": "python " }
+    "config": { "maxLambdaSize": "15mb", "runtime": "python" }
 
     },
 
@@ -18,7 +18,7 @@
 
     "src": "build_files.sh",
 
-    "use": "@vercel/static",
+    "use": "@vercel/static-build",
 
     "config": {
 
