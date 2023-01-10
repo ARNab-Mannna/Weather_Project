@@ -26,9 +26,9 @@ SECRET_KEY = 'django-insecure-*bkwtvvh7awm*=n7+)d6nnr6fee03*yk14tie=&(#0r^8-yd#c
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG =False
 
-ALLOWED_HOSTS = ['.vercel.app', '.now.sh']
+ALLOWED_HOSTS = ['weather-project-5910ku2l9-arnab-mannna.vercel.app']
 
-# 
+#weather-project-5910ku2l9-arnab-mannna.vercel.app
 # Application definition
 
 INSTALLED_APPS = [
