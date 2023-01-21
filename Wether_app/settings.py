@@ -24,10 +24,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-*bkwtvvh7awm*=n7+)d6nnr6fee03*yk14tie=&(#0r^8-yd#c'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG =False
+DEBUG = False
 
-ALLOWED_HOSTS = ['localhost','.vercel.app']
-
+ALLOWED_HOSTS = ['*']
+# 'localhost','.vercel.app'
 #weather-project-5910ku2l9-arnab-mannna.vercel.app
 # Application definition
 
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'weather_API.apps.WeatherApiConfig',
-     'example',
+    
     ]
 
 MIDDLEWARE = [
